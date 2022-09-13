@@ -5,4 +5,5 @@ from django.db import models
 class mycache_table(models.Model):
     name=models.CharField(null=True,blank=True)
     address=models.CharField(null=True,blank=True)
+    
 
